@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sensor Variable Font - Iluminación</title>
+        <link rel=StyleSheet href="style.css" type="text/css" media=screen>
+        <!-- para poder tener la biblioteca de SocketIo que comunica en tiempo real -->
+        <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+        <!-- para comunicarnos con el Js -->
+        <script src="/main.js" charset="utf-8"></script>
+  
+    </head>
+    <body>
+        <div class="cont">
+            <img id="fondo" src="ilustraciones-prototipos-luz-01.svg">
+            <!-- ASIGNO EL ID que he puesto en main.js EN EL HTML -->
+            <div id="valorModificaEjeVariacion">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </div>
+
+            <div id="valorModificaEjeVariacion2">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </div>
+            
+            <div id="info">
+                <div id="Modulo11"><span class="bold">Sensor:</span> Iluminación</div>
+                <div id="Modulo21"><span class="bold">Tipografía variable:</span> Amstelvar Alpha</div>
+                <div id="Modulo31"><span class="bold">Eje de variación:</span> Tamaño óptico</div>
+                <div id="Modulo41"><span class="bold">Función significativa:</span> Agudeza + Yuxtaposición + Proporcionalidad</div>
+                
+                <div id="Modulo12" class="bold">Función normalizadora:</div>
+                <div id="Modulo22">&nbsp;</div>
+                <div id="Modulo32">&nbsp;</div>
+                <div id="Modulo42">Valor registrado:</div>
+
+                <div id="Modulo13">Valor iluminación</div>
+                <div id="Modulo23" class="thin">200</div>
+                <div id="Modulo33" class="thin">1017</div>
+                <div id="Modulo43"><span id="muestroValorSensor"></span></div>
+
+                <div id="Modulo14">Valor tamaño ópt.(móvil)</div>
+                <div id="Modulo24" class="thin">72</div>
+                <div id="Modulo34" class="thin">10</div>
+                <div id="Modulo44"><span id="muestroValorEjeVariacion"></span></div>
+
+                <div id="Modulo15">Valor tamaño ópt.(tableta)</div>
+                <div id="Modulo25" class="thin">72</div>
+                <div id="Modulo35" class="thin">10</div>
+                <div id="Modulo45"><span id="muestroValorEjeVariacion2"></span></div>
+           
+            </div>
+       
+        </div>
+    </body>
+</html>

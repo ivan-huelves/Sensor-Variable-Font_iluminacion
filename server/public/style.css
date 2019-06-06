@@ -1,0 +1,149 @@
+/*DECLARO VARIABLES CSS y les asigno un valor por defecto de inicio*/
+:root {
+    --tamanoOptico: 25;  
+  }
+  
+ /*CARGO TIPOGRAFÍA*/ 
+@font-face {
+      font-family: "AmstelvarAlpha-VF";
+      /*atención al formato en el que se carga la fuente*/
+      src: url("AmstelvarAlpha-VF.ttf") format("truetype-variations");
+}
+
+@font-face {
+    font-family: "IBMPlexSansVar-Roman";
+    /*atención al formato en el que se carga la fuente*/
+    src: url("IBMPlexSansVar-Roman.ttf") format("truetype-variations");
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  color:white;
+  overflow: hidden;
+}
+
+.cont{
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+#fondo{
+  height: 100%;
+}
+
+/*MODIFICA EL VALOR DE LOS EJES DE VARIACIÓN A PARTIR DEL DATO RECIBIDO*/
+#valorModificaEjeVariacion {
+  font-family: "AmstelvarAlpha-VF";
+  /*con esta propiedad accedo a los ejes de variación de la tipografía*/
+  font-variation-settings: "opsz" var(--tamanoOptico);
+
+  font-size: 1.4vh;
+  line-height: 2vh;
+  color:black;
+  
+  position: absolute;
+  top: 55vh;
+  left: 20vh;
+  max-width: 15.5vh;
+  overflow: hidden;
+  max-height: 28vh;
+}
+
+#valorModificaEjeVariacion2 {
+  font-family: "AmstelvarAlpha-VF";
+  /*con esta propiedad accedo a los ejes de variación de la tipografía*/
+  font-variation-settings: "opsz" var(--tamanoOptico);
+
+  font-size: 2.5vh;
+  line-height: 3.3vh;
+  color:black;
+  
+  position: absolute;
+  top: 16.5vh;
+  left: 64vh;
+  max-width: 60vh;
+  overflow: hidden;
+  max-height: 66vh;
+}
+
+#info {
+  font-family: "IBMPlexSansVar-Roman";
+  font-size: 1.5vh;
+
+  position: absolute;
+  bottom: 1.6em;
+  left: 4em;
+
+  display: grid;
+  grid-template-columns: 50vh 18.5vh 13.5vh 18.5vh;
+  grid-gap: 0.1vh;
+  grid-template-areas:  "Modulo11 Modulo12 Modulo13 Modulo14 Modulo15"
+                        "Modulo21 Modulo22 Modulo23 Modulo24 Modulo25"
+                        "Modulo31 Modulo32 Modulo33 Modulo34 Modulo35"
+                        "Modulo41 Modulo42 Modulo43 Modulo44 Modulo45";
+}
+
+.bold{
+  font-variation-settings: 'wght' 700;
+}
+  
+.thin{
+  font-variation-settings: 'wght' 200;
+}
+
+/*COLUMNA 1*/
+#Modulo11{grid-area: Modulo11;}
+
+#Modulo21{grid-area: Modulo21;}
+
+#Modulo31{grid-area: Modulo31;}
+
+#Modulo41{grid-area: Modulo41;}
+
+/*COLUMNA 2*/
+#Modulo12{grid-area: Modulo12;}
+
+#Modulo22{grid-area: Modulo22;}
+
+#Modulo32{grid-area: Modulo32;}
+
+#Modulo42{grid-area: Modulo42;}
+
+/*COLUMNA 3*/
+#Modulo13{grid-area: Modulo13;}
+
+#Modulo23{grid-area: Modulo23;}
+
+#Modulo33{grid-area: Modulo33;}
+
+#Modulo43{grid-area: Modulo43;}
+
+/*COLUMNA 4*/
+#Modulo14{grid-area: Modulo14;}
+
+#Modulo24{grid-area: Modulo24;}
+
+#Modulo34{grid-area: Modulo34;}
+
+#Modulo44{grid-area: Modulo44;}
+
+/*COLUMNA 5*/
+#Modulo15{grid-area: Modulo15;}
+
+#Modulo25{grid-area: Modulo25;}
+
+#Modulo35{grid-area: Modulo35;}
+
+#Modulo45{grid-area: Modulo45;}
+   
+   
