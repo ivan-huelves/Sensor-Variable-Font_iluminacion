@@ -6,7 +6,6 @@ Providing variable fonts with a semantic use in graphic interfaces to establish 
 
 ## Prototipo Nº2. Sensor de iluminación aplicado al tamaño óptico de la tipografía en dispositivos con pantalla
 
-![Sensor Variable Font - iluminación](/img/sensorvariablefont-iluminacion.jpg)
 [![Sensor Variable Font - iluminación](/img/sensorvariablefont-iluminacion.jpg)](https://vimeo.com/341421372 "Sensor Variable Font - iluminacion")
 
 En el segundo prototipo se relaciona el grado de iluminación de un espacio con la percepción óptica de la tipografía en dispositivos con pantalla como libros electrónicos o smartphones.
