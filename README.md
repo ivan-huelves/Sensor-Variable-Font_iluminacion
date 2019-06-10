@@ -7,6 +7,7 @@ Providing variable fonts with a semantic use in graphic interfaces to establish 
 ## Prototipo Nº2. Sensor de iluminación aplicado al tamaño óptico de la tipografía en dispositivos con pantalla
 
 ![Sensor Variable Font - iluminación](/img/sensorvariablefont-iluminacion.jpg)
+[![Sensor Variable Font - iluminación](/img/sensorvariablefont-iluminacion.jpg)](https://vimeo.com/341421372 "Sensor Variable Font - iluminacion")
 
 En el segundo prototipo se relaciona el grado de iluminación de un espacio con la percepción óptica de la tipografía en dispositivos con pantalla como libros electrónicos o smartphones.
 Por un lado los elementos serían el sensor de iluminación, con un valor mínimo de 200 y un valor máximo de 1017. Hay que tener en cuenta que estos valores son relativos a la condición lumínica del espacio por lo que solo se han de tomar como referencia. Resulta preciso calibrar el sensor antes. El valor registrado se actualiza cada 100 milisegundos. El sensor empleado se trata de una fotorresistencia o LDR (light depending sensor) que calcula el valor oponiendo más o menos resistencia al paso de corriente según las condiciones lumínicas. Y por otro la tipografía variable Amstelvar Alpha y el eje de variación Tamaño óptico, con un valor mínimo de 10 y un valor máximo de 72.
